@@ -3,7 +3,7 @@ FROM lsiobase/rdesktop-web:alpine
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG GHIDRA_RELEASE="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_10.1.2_build/ghidra_10.1.2_PUBLIC_20220125.zip"
+ARG GHIDRA_RELEASE="http://192.168.1.45/ghidra_10.1.2_PUBLIC_20220125.zip"
 LABEL build_version="Version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="aolszowka"
 
